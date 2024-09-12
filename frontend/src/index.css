@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-bg{
+    border-bottom: 3px solid #24247a;
+    padding: 10px;
+}
+.responsive-menu{
+    background:transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(23px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100vh;  
+}
+
+body{
+    overflow-x: hidden;
+}
